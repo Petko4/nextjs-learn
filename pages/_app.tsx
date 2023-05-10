@@ -12,8 +12,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={inter.className}>
       <Head>
-        <title>NextJS News App</title>
-        <meta name="description" content="nextjs news app" />
+        <title key="title">NextJS News App</title>
+        <meta name="description" key="description" content="nextjs news app" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
