@@ -12,7 +12,7 @@ interface CategoryNewsPageProps {
 export const getStaticPaths: GetStaticPaths = async () => {
   const categorySlugs = [
     "business",
-    "entertaiment",
+    "entertainment",
     "general",
     "health",
     "science",
